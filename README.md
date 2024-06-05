@@ -16,7 +16,7 @@
     - Click on `Create` to Create a Repository
      - Repository Name: `jenkins-maven-sonarqube-nexus-project`
      - Click on `Create`
-     - Download the Project Zip from https://github.com/awanmbandi/realworld-cicd-pipeline-project/tree/maven-sonarqube-nexus-jenkins-p1
+     - Download the Project Zip from https://github.com/chedjieu/realworld-cicd-pipeline-project/tree/maven-sonarqube-nexus-jenkins-p1
      - Unzip and Push the code to the Repository you just provisioned
 
 2) SonarQube
@@ -24,7 +24,7 @@
     - Instance type: `t2.medium`
     - Security Group (Open): 9000 and 22 to 0.0.0.0/0
     - Key pair: Select or create a new keypair
-    - User data (Copy the following user data): https://github.com/awanmbandi/realworld-cicd-pipeline-project/blob/maven-sonarqube-nexus-jenkins-p1/tools/sonarqube-install.sh
+    - User data (Copy the following user data): https://github.com/chedjieu/realworld-cicd-pipeline-project/blob/maven-sonarqube-nexus-jenkins-p1/tools/sonarqube-install.sh
     - Launch Instance
 
 3) Jenkins/Maven
@@ -32,7 +32,7 @@
     - Instance type: `t2.medium`
     - Security Group (Open): 8080 and 22 to 0.0.0.0/0 or Your-IP
     - Key pair: Select or create a new keypair
-    - User data (Copy the following user data): https://github.com/awanmbandi/realworld-cicd-pipeline-project/blob/maven-sonarqube-nexus-jenkins-p1/tools/jenkins-maven-install.sh
+    - User data (Copy the following user data): https://github.com/chedjieu/realworld-cicd-pipeline-project/blob/maven-sonarqube-nexus-jenkins-p1/tools/jenkins-maven-install.sh
     - Launch Instance
 
 4) Nexus
@@ -40,7 +40,7 @@
     - Instance type: `t2.medium`
     - Security Group (Open): 8081 and 22 to 0.0.0.0/0
     - Key pair: Select or create a new keypair
-    - User data (Copy the following user data): https://github.com/awanmbandi/realworld-cicd-pipeline-project/blob/maven-sonarqube-nexus-jenkins-p1/tools/nexus-install.sh
+    - User data (Copy the following user data): https://github.com/chedjieu/realworld-cicd-pipeline-project/blob/maven-sonarqube-nexus-jenkins-p1/tools/nexus-install.sh
     - Launch Instance
 
 ## Configure Nexus Repository
